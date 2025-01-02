@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="turn.js"></script> <!-- Referência à biblioteca turn.js -->
+    </head>
+    <body>
+        <div id="message"> Progress: 
+            <div id="pageNumber"></div> pages generated ... 
+        </div>
+
+        <div id="flipbook"></div>
+
+        <!-- Elemento de áudio para tocar o som de cada página -->
+        <audio id="audioPlayer" controls>
+            <source id="audioSource" src="" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    
+        <script src="main.js"></script>
+    </body>
+</html>
